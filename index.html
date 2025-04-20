@@ -2,6 +2,7 @@
 <html>
     <head>
         <title>Swirly!</title>
+        <link rel="stylesheet" href="style.css">
 
         <!--Hmm... interesting of you to come and check out my code-->
         <!--Anyway, you're welcome to check it out, just ignore indentations cuz who cares?-->
@@ -26,26 +27,72 @@
              Rules:
            </h2>
            <ul>
-            <li>Rate the Bodies of the Solar System from 1-10</li>
+            <li><strong>Rate</strong> the Bodies of the Solar System from <strong>1-10</strong></li>
             <li>Check out the Solar-system stats to check stats </li>
-            <li>Once you check the stats, submit the form below!</li>
-            <li>Enjoy!</li>
+            <li>Once you check the stats, <strong>submit</strong> the form below!</li>
+            <li><b>Enjoy!</b></li>
            </ul>
        </div>
-       <div class="button">
-             
-           <a href="#" class="color-enhancing">Stats!</a>
-
-        </div>
+       <div class="stats">
+        <h2>
+          Solar System stats ☀️:
+        
+        </h2>
+        <ul>
+          <li>Planets: 8 (Sorry Pluto)</li>
+          <li>Moons: 891</li>
+          <li>Asteroids: Millions</li>
+          <li>Stars: 1</li>
+          <li>Comets: 3743</li>
+          <li>That's all for now!</li>
+        </ul>
+       </div>
        <div class="Form">
               <h2>
-                Time to Rate!
+                Time to Rate!🪐
               </h2>
+
+              <p>The Sun isn't included cuz it's the best!(alongside earth)</p>
+              <p>Btw the inputs glow!</p>
+
+              
               <form action="Randomformthatdoesntwork.php" method="post">
+                
+                <label for="Mercury">Rate Mercury (1-10)🌕:</label>
+                <input type="number" id="mercury" name="Mercury" min="1" max="10" required><br><br>
+
+                <label for="Venus">Rate Venus (1-10)🌑:</label>
+                <input type="number" id="Venus" name="Venus" min="1" max="10" required><br><br>
+
+                <label for="Earth!">Rate Earth (1-undefined)🌏:</label>
+                <input type="number" id="Earth" name="Earth" min="1" required><br><br>
+
+                <label for="Mars">Rate Mars (1-10):</label>
+                <input type="number" id="Mars" name="Mars" min="1" max="10" required><br><br>
+
+                <label for="Jupiter">Rate Jupiter (1-10):</label>
+                <input type="number" id="Jupiter" name="Jupiter" min="1" max="10" required><br><br>
+
+                <label for="Saturn">Rate Saturn (1-10):</label>
+                <input type="number" id="Saturn" name="Saturn" min="1" max="10" required><br><br>
+
+                <label for="Uranus">Rate Uranus (1-10):</label>
+                <input type="number" id="Uranus" name="Uranus" min="1" max="10" required><br><br>
+
+                <label for="Neptune">Rate Neptune (1-10):</label>
+                <input type="number" id="Neptune" name="Neptune" min="1" max="10" required><br><br>
+
+                <label for="Pluto">Rate Pluto????? (1-10):</label>
+                <input type="number" id="Pluto" name="Pluto" min="1" max="10" required><br><br>
+
+                <button type="submit">Submit!</button>
 
               </form>
 
        </div>
+       <p>I know it's looks the part but it doesn't do anything ;-)</p>
+       <p>But hey, at least you can rate the Planets!</p>
+
     
        
        
